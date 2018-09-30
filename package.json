@@ -1,0 +1,26 @@
+{
+  "name": "RNCommonUtils",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "mobx": "^3.4.1",
+    "mobx-react": "^4.3.5",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.5",
+    "react-test-renderer": "16.5.0",
+    "npm": "^6.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
